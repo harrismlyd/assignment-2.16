@@ -57,5 +57,5 @@ resource "aws_cloudwatch_metric_alarm" "info_count" {
 resource "aws_sns_topic_subscription" "alarm" {
   topic_arn = aws_sns_topic.alarm.arn
   protocol  = "email"
-  endpoint  = "harris_ita@yahoo.com.sg"  # Replace with your email address
+  endpoint  = "harris_ita@yahoo.com.sg"
 }
